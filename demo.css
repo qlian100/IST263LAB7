@@ -1,0 +1,56 @@
+
+
+body{
+
+	background-color: #ffff00;
+}
+
+
+.example{
+
+	font-size: 20px;
+	font-family:Odibee Sans;
+	width:70px;
+	height:70px;
+	background-color: #ff00ff;
+	border-radius: 500px ;
+	/*box-shadow: 100px 10px 20px #000000, 200px 10px 20px #ff0000, 300px 10px 20px #0000ff;   horizontal, vertical, spread, color */
+	margin:200px;
+	padding:100px;
+	text-shadow:900px 900px #ffffff;
+	transition: backgournd-color 1s, transform 1s ease-in; 
+	text-align: center;
+	cursor: pointer;
+
+}	
+
+
+
+
+
+	/* pseudo class = sitationally applied css, modified existing css classes
+		
+		hover - cursor on top of an element.
+		visited - style of an <a> that has been visited (clicked)
+		active - style of an <a> as it's being
+
+	 */
+
+
+.example:hover{
+
+	background-color:#00ff00;
+	transform: rotate(360deg);
+	 
+
+
+	}
+
+	#shadow{
+
+		color:#101010;
+		text-shadow:12px 20x 10px orange;
+		text-align: center
+	
+	}	
+	
